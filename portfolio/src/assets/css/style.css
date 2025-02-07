@@ -1,0 +1,217 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+
+* {
+    margin: 0px;
+    padding: 0px;
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif, Times, serif
+}
+
+.grad-blue-bgs {
+
+  background: rgb(32, 29, 29);
+  
+  
+  }
+
+
+@layer utilities {
+    .custom-navbar-shadow {
+      /* box-shadow: 0 4px 12px rgb(251, 250, 250); Emerald color with transparency */
+      box-shadow:
+      2.8px 2.8px 2.2px rgba(0, 0, 0, 0.02),
+      6.7px 6.7px 5.3px rgba(0, 0, 0, 0.028),
+      12.5px 12.5px 10px rgba(0, 0, 0, 0.035),
+      22.3px 22.3px 17.9px rgba(0, 0, 0, 0.042),
+      41.8px 41.8px 33.4px rgba(0, 0, 0, 0.05),
+      100px 100px 80px rgba(0, 0, 0, 0.07);
+    }
+}
+
+.project{
+    /* background: #16222A; 
+    background: -webkit-linear-gradient(to right, #3A6073, #16222A);  
+    background: linear-gradient(to right, #3A6073, #16222A); */
+
+    /* background: #345668; */
+    /* color: #86efac; */
+
+    background: rgb(32, 29, 29);
+}
+
+.skill{
+  background: rgba( 0, 0, 0, 0.15 );
+  box-shadow: 0 8px 32px 0 rgba( 31, 38, 135, 0.37 );
+  backdrop-filter: blur( 17px );
+  -webkit-backdrop-filter: blur( 17px );
+  border-radius: 10px;
+}
+
+.green{
+  color: #86efac;
+}
+.white{
+  color: aliceblue;
+}
+
+.skills h2{
+  font-weight: bolder;
+  letter-spacing: 1px;
+  margin-top: 10px;
+  margin-bottom: 20px;
+}
+.bar{
+  background: gray;
+  margin-bottom: 10px;
+  width: 300px;
+  height: 10px;
+  border-radius: 5px;
+  display: flex;
+}
+
+.bar div{
+  height: 10px;
+  border-radius: 5px;
+  width: 0%;
+}
+
+.bar div span{
+  height: 30px;
+  width: 30px;
+  border-radius: 50%;
+  background: rgb(32, 29, 29);
+  border: 1px solid #86efac;
+  float: right;
+  margin-top: -10px;
+  margin-right: -20px;
+  color: #fff;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 10px;
+}
+
+.c{
+  background: #86efac;
+  animation: c 2s linear forwards;
+}
+.html{
+  background: #86efac;
+  animation: html 2s linear forwards;
+}
+.java{
+  background: #86efac;
+  animation: java 2s linear forwards;
+}
+.js{
+  background: #86efac;
+  animation: js 2s linear forwards;
+}
+.dbms{
+  background: #86efac;
+  animation: dbms 2s linear forwards;
+}
+
+@keyframes c{
+  100%{
+    width: 86%;
+  }
+}
+@keyframes java{
+  100%{
+    width: 80%;
+  }
+}
+@keyframes dbms{
+  100%{
+    width: 90%;
+  }
+}
+@keyframes html{
+  100%{
+    width: 86%;
+  }
+}
+@keyframes js{
+  100%{
+    width: 68%;
+  }
+}
+
+.team{
+  background: #86efac;
+  animation: team 2s linear forwards;
+}
+.public{
+  background: #86efac;
+  animation: public 2s linear forwards;
+}
+.leadership{
+  background: #86efac;
+  animation: leadership 2s linear forwards;
+}
+.time{
+  background: #86efac;
+  animation: time 2s linear forwards;
+}
+.critical{
+  background: #86efac;
+  animation: critical 2s linear forwards;
+}
+
+@keyframes critical{
+  100%{
+    width: 85%;
+  }
+}
+@keyframes team{
+  100%{
+    width: 90%;
+  }
+}
+@keyframes leadership{
+  100%{
+    width: 95%;
+  }
+}
+@keyframes time{
+  100%{
+    width: 80%;
+  }
+}
+@keyframes public{
+  100%{
+    width: 89%;
+  }
+}
+
+.hobbies{
+  margin-top: 20px;
+  margin-bottom: 20px;
+}
+.languages{
+  margin-top: 20px;
+  margin-bottom: 20px;
+}
+
+.languages li{
+  margin-top: 20px;
+  margin-bottom: 20px;
+
+}
+
+.top-lang{
+  margin-top: 105px;
+}
+
+.cards{
+  width: 25%;
+  height: 60%;
+}
+
+.content-projects h1{
+  margin-bottom: 10px;
+  margin-top: 20px;
+}
